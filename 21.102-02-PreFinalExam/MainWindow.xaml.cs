@@ -41,7 +41,7 @@ namespace _21._102_02_PreFinalExam
             }
             else
             {
-                MessageBox.Show($"Нужно выбрать запись для удаления", "Удаление", MessageBoxButton.OK, MessageBoxImage.Error);
+                MessageBox.Show($"Нужно выбрать услугу для получения списка записей", "Список записей", MessageBoxButton.OK, MessageBoxImage.Error);
             }
         }
 
@@ -67,7 +67,7 @@ namespace _21._102_02_PreFinalExam
                 }
                 else
                 {
-                    MessageBox.Show($"Нужно выбрать запись для удаления", "Удаление", MessageBoxButton.OK, MessageBoxImage.Error);
+                    MessageBox.Show($"Нужно выбрать услугу для удаления", "Удаление", MessageBoxButton.OK, MessageBoxImage.Error);
                 }
             }
         }

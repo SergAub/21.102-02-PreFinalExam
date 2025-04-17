@@ -77,9 +77,6 @@
     <Compile Include="View\AddService.xaml.cs">
       <DependentUpon>AddService.xaml</DependentUpon>
     </Compile>
-    <Compile Include="View\ClientList.xaml.cs">
-      <DependentUpon>ClientList.xaml</DependentUpon>
-    </Compile>
     <Compile Include="View\RegistrationList.xaml.cs">
       <DependentUpon>RegistrationList.xaml</DependentUpon>
     </Compile>
@@ -131,10 +128,6 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="View\AddService.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="View\ClientList.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

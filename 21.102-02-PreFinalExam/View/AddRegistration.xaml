@@ -20,13 +20,14 @@
                     </DataTemplate>
                 </ComboBox.ItemTemplate>
             </ComboBox>
-            <DatePicker x:Name="tbCost" Width="Auto"/>
+            <DatePicker x:Name="dpDate" Width="Auto"/>
             <TextBlock>Время</TextBlock>
             <TextBox x:Name="tbTime" Width="Auto"/>
             <StackPanel Orientation="Horizontal">
                 <Button x:Name="btnOK" Content="ОК" Margin="5"/>
                 <Button x:Name="btnCancel" Content="Отмена" Margin="5"/>
             </StackPanel>
+            <Button x:Name="btnCreateClient">Создать клиента</Button>
         </StackPanel>
     </Grid>
 </Window>

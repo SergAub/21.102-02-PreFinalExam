@@ -22,6 +22,18 @@ namespace _21._102_02_PreFinalExam.View
         public AddClient()
         {
             InitializeComponent();
+            btnCancel.Click += BtnCancel_Click;
+            btnOK.Click += BtnOK_Click;
+        }
+
+        private void BtnOK_Click(object sender, RoutedEventArgs e)
+        {
+            throw new NotImplementedException();
+        }
+
+        private void BtnCancel_Click(object sender, RoutedEventArgs e)
+        {
+            throw new NotImplementedException();
         }
     }
 }

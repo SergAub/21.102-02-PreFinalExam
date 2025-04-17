@@ -12,5 +12,16 @@ namespace _21._102_02_PreFinalExam.ViewModel
     {
         public Registration registration { get; set; }
         public Clients client { get; set; }
+
+        public string ClientPhoto{
+            get
+            {
+                if(client.Photo == null || client.Photo.Length == 0)
+                {
+                    return "/Resources/User.png";
+                }
+                return client.Photo;
+            }
+        }
     }
 }

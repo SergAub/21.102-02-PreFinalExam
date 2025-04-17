@@ -25,7 +25,7 @@
         <StackPanel Orientation="Horizontal" Grid.Row="1" HorizontalAlignment="Left">
             <Button x:Name="btnAdd" Content="Добавить" Margin="5"/>
             <Button x:Name="btnDelete" Content="Удалить" Margin="5"/>
-            <Button x:Name="btnClients" Content="Клиенты" Margin="5"/>
+            <Button x:Name="btnClients" Content="Записи" Margin="5"/>
         </StackPanel>
 
         <ComboBox x:Name="cbSort" Grid.Row="1" Margin="5"

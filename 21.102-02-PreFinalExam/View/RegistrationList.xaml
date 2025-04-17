@@ -16,11 +16,18 @@
                   CanUserAddRows="False" 
                   CanUserDeleteRows="False">
             <DataGrid.Columns>
-                <DataGridTextColumn Header="Фамилия" Binding="{Binding Client.Surname}"/>
-                <DataGridTextColumn Header="Имя" Binding="{Binding Client.Name}"/>
-                <DataGridTextColumn Header="Отчество" Binding="{Binding Client.Patronymic}"/>
-                <DataGridTextColumn Header="Телефон" Binding="{Binding Client.Phone}"/>
-                <DataGridTextColumn Header="Телефон" Binding="{Binding Registration.DateTime}"/>
+                <DataGridTemplateColumn Header="Фото">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <Image Source="{Binding ClientPhoto}" Width="100" Height="100"/>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+                <DataGridTextColumn Header="Фамилия" Binding="{Binding client.Surname}"/>
+                <DataGridTextColumn Header="Имя" Binding="{Binding client.Name}"/>
+                <DataGridTextColumn Header="Отчество" Binding="{Binding client.Patronymic}"/>
+                <DataGridTextColumn Header="Телефон" Binding="{Binding client.Phone}"/>
+                <DataGridTextColumn Header="Дата и время" Binding="{Binding registration.DateTime}"/>
             </DataGrid.Columns>
         </DataGrid>
 

@@ -8,12 +8,12 @@
         Title="AddService" Height="450" Width="800" MinHeight="450" MinWidth="800">
     <Grid>
         <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+            <TextBlock>Название</TextBlock>
+            <TextBox x:Name="tbName" Width="Auto"/>
             <TextBlock>Число занятий</TextBlock>
             <TextBox x:Name="tbCount" Width="Auto"/>
             <TextBlock>Цена</TextBlock>
             <TextBox x:Name="tbCost" Width="Auto"/>
-            <TextBlock>Цена</TextBlock>
-            <TextBox x:Name="tbDateTime" Width="Auto"/>
             <StackPanel Orientation="Horizontal">
                 <Button x:Name="btnOK" Content="ОК" Margin="5"/>
                 <Button x:Name="btnCancel" Content="Отмена" Margin="5"/>

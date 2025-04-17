@@ -61,6 +61,7 @@ namespace _21._102_02_PreFinalExam.View
         {
             AddRegistration addRegistration = new AddRegistration(_service);
             addRegistration.Closed += AddRegistration_Closed;
+            addRegistration.ShowDialog();
         }
 
         private void AddRegistration_Closed(object sender, EventArgs e)

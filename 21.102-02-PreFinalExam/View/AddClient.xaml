@@ -7,6 +7,19 @@
         mc:Ignorable="d"
         Title="AddClient" Height="450" Width="800">
     <Grid>
-        
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+            <TextBlock>Фамилия</TextBlock>
+            <TextBox x:Name="tbSurname" Width="Auto"/>
+            <TextBlock>Имя</TextBlock>
+            <TextBox x:Name="tbName" Width="Auto"/>
+            <TextBlock>Отчество</TextBlock>
+            <TextBox x:Name="tbPatronymic" Width="Auto"/>
+            <TextBlock>Телефон</TextBlock>
+            <TextBox x:Name="tbPhone" Width="Auto"/>
+            <StackPanel Orientation="Horizontal">
+                <Button x:Name="btnOK" Content="ОК" Margin="5"/>
+                <Button x:Name="btnCancel" Content="Отмена" Margin="5"/>
+            </StackPanel>
+        </StackPanel>
     </Grid>
 </Window>
