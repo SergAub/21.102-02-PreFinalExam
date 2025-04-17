@@ -16,6 +16,8 @@
             <TextBox x:Name="tbPatronymic" Width="Auto"/>
             <TextBlock>Телефон</TextBlock>
             <TextBox x:Name="tbPhone" Width="Auto"/>
+            <Button x:Name="btnChoosePhoto" Content="Выбрать фото" Width="Auto"/>
+            <TextBlock x:Name="tblPhotoPath" Text="Путь к фото"/>
             <StackPanel Orientation="Horizontal">
                 <Button x:Name="btnOK" Content="ОК" Margin="5"/>
                 <Button x:Name="btnCancel" Content="Отмена" Margin="5"/>
